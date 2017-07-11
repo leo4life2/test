@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         titleView.frame.size.height = 37
         
         let posterProfileImageView = UIImageView()
-        posterProfileImageView.backgroundColor = UIColor.black
+        posterProfileImageView.backgroundColor = UIColor.blue
         posterProfileImageView.frame.size.height = 36
         posterProfileImageView.frame.size.width = 36
         posterProfileImageView.layer.masksToBounds = true
