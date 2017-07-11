@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         titleView.addSubview(postDateLabel)
         let postDateLabelAttributes = [
             NSAttributedStringKey.foregroundColor: UIColor(red: 151/255, green: 147/255, blue: 147/255, alpha: 1),
-            NSAttributedStringKey.font : UIFont(name: "Avenir-Roman", size: 12)! // Note the !
+            NSAttributedStringKey.font : UIFont(name: "Avenir-Roman", size: 12)!
         ]
         postDateLabel.attributedText = NSAttributedString(string: "someDate", attributes: postDateLabelAttributes)
         postDateLabel.sizeToFit()
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         titleView.addSubview(posterNameLabel)
         let attributes = [
             NSAttributedStringKey.foregroundColor: UIColor(red: 80/255, green: 79/255, blue: 79/255, alpha: 1),
-            NSAttributedStringKey.font : UIFont(name: "PingFangSC-Medium", size: 14)! // Note the !
+            NSAttributedStringKey.font : UIFont(name: "PingFangSC-Medium", size: 14)!
         ]
         posterNameLabel.attributedText = NSAttributedString(string: "someGuy", attributes: attributes)
         posterNameLabel.sizeToFit()
